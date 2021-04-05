@@ -1,8 +1,6 @@
+const controller = require("./controller")
+
 module.exports = function(app) {
-    app.get('/about', function(req, res) {
-    //
-    });
-    app.get('/get-cep-info', function(req, res) {
-    //
-    });
+    app.get('/about', controller.about);
+    app.get('/get-cep-info', controller.getCepInfo);
   };
