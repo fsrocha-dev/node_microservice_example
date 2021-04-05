@@ -1,0 +1,12 @@
+{
+  "name": "node_microservice",
+  "version": "1.0.0",
+  "description": "Minimal microservice with nodejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
