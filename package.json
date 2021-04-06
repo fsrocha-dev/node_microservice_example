@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "serialize-error": "^8.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
